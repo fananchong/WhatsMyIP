@@ -24,5 +24,12 @@ docker pull fananchong/whatsmyip
 ```
 
 ```bash
-docker run -it -p 3000:3000 fananchong/whatsmyip
+docker run -d --restart=always -p 3000:3000 fananchong/whatsmyip
+```
+
+## docker swarm
+
+```bash
+cd docker-swarm
+./install.sh
 ```
