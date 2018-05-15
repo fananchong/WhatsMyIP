@@ -1,4 +1,4 @@
-FROM golang
+FROM ubuntu
 
 COPY whatsmyip /usr/local/bin/
 
